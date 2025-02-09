@@ -3,7 +3,9 @@
 
 use esp_backtrace as _;
 use esp_hal::{
-    clock::CpuClock, gpio::{Input, Level, Output}, rtc_cntl::Rtc
+    clock::CpuClock,
+    gpio::{Input, Level, Output},
+    rtc_cntl::Rtc,
 };
 
 use embassy_executor::Spawner;
@@ -89,7 +91,6 @@ async fn handle_delay<D: embedded_hal_async::delay::DelayNs>(mut delay: D, value
 // }
 // 30
 // }
-
 
 // fn alert(channel: &mut Channel<'_, LowSpeed>) {
 //     let mut i = 0;
