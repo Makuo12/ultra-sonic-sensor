@@ -756,6 +756,7 @@ dependencies = [
  "esp-println",
  "esp-wifi",
  "heapless",
+ "libm",
  "log",
  "smoltcp",
  "static_cell",
