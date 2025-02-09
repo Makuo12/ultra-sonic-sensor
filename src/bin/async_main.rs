@@ -5,7 +5,6 @@ use esp_backtrace as _;
 use esp_hal::{
     clock::CpuClock, gpio::{Input, Level, Output}, rtc_cntl::Rtc
 };
-use esp_println::println;
 
 use embassy_executor::Spawner;
 use embassy_time::{Duration, Timer};
